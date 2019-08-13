@@ -1,0 +1,20 @@
+{
+  "name": "cncfsec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datree-demo/cncfsec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datree-demo/cncfsec/issues"
+  },
+  "homepage": "https://github.com/datree-demo/cncfsec#readme"
+}
