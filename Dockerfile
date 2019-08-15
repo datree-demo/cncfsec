@@ -1,4 +1,4 @@
-FROM node:latest
+FROM datree-docker.jfrog.io/node:latest
 WORKDIR /usr/src/app
 COPY package.json .
 RUN npm install
