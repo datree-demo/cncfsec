@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/datree-demo/cncfsec#readme",
   "dependencies": {
-    "express": "*"
+    "express": "^4.17.1"
   }
 }
