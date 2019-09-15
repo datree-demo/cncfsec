@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cncf-service
+  labels:
+    purpose: Generate Octocats
+spec:
+  containers:
+  - name: octocat-generator-container
+    image: docker.pkg.github.com/datree-demo/datee-demo/universe2019:latest
+    env:
+    - name: GH_TOKEN
+      value: "a86f5bbc2e2352449b8ctce855ab68babc86bcff"
+    - name: NPM_TOKEN
+      value: "16be7599-4325-4a9c-bac6-8d6c09168877"
+    - name: AWS_ACCESS_KEY_ID
+      value: "AKIAXAX2DEN42YXD2TY"
+    - name: AWS_SECRET_ACCESS_KEY
+      value: "Rjk6b6aAKZakeGXyS190t+CH+QNgfhe7yPQhZOsX"
+    - name: DATABASE_PASSWORD
+      value: "P@ssw0rd"
